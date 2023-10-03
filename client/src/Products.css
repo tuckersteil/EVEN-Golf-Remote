@@ -1,0 +1,16 @@
+.filter-menu li.selected > span {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .filter-menu li.selected {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .subcategories li.selected > span {
+    font-weight: bold;
+    text-decoration: underline;
+  }
