@@ -87,17 +87,17 @@ function Secondhand(){
 
             <div className='CatSSM'>
                 <h2>Categories</h2>
-                    <ul><img src={lightbulb} className="SSMicons"/>Light Fixtures</ul>
-                    <ul><img src={stairs} className="SSMicons"/>Glass Railing Systems</ul>
-                    <ul><img src={window} className="SSMicons"/>Windows</ul>
-                    <ul><img src={medicinecabinet} className="SSMicons"/>Medicine Cabinets</ul>
-                    <ul><img src={mirror} className="SSMicons"/>Mirrors</ul>
-                    <ul><img src={pull} className="SSMicons"/>Cabinet Pulls and Handles</ul>
-                    <ul><img src={shower} className="SSMicons"/>Shower Glass Encolsures</ul>
-                    <ul><img src={towel} className="SSMicons"/>Bathroom Accessories</ul>
-                    <ul><img src={curtain} className="SSMicons"/>Window Shades</ul>
-                    <ul><img src={door} className="SSMicons"/>Solid Wood Doors</ul>
-                    <ul><img src={pipe} className="SSMicons"/>Plumbing Fixtures</ul>
+                    <ul><img src={lightbulb} alt="lightbulb"  className="SSMicons"/>Light Fixtures</ul>
+                    <ul><img src={stairs} alt="starirs" className="SSMicons"/>Glass Railing Systems</ul>
+                    <ul><img src={window}  alt="window" className="SSMicons"/>Windows</ul>
+                    <ul><img src={medicinecabinet} alt="cabinet" className="SSMicons"/>Medicine Cabinets</ul>
+                    <ul><img src={mirror} alt="mirror" className="SSMicons"/>Mirrors</ul>
+                    <ul><img src={pull} alt="pull" className="SSMicons"/>Cabinet Pulls and Handles</ul>
+                    <ul><img src={shower} alt="shower" className="SSMicons"/>Shower Glass Encolsures</ul>
+                    <ul><img src={towel} alt="towel" className="SSMicons"/>Bathroom Accessories</ul>
+                    <ul><img src={curtain} alt="curtain" className="SSMicons"/>Window Shades</ul>
+                    <ul><img src={door} alt="door" className="SSMicons"/>Solid Wood Doors</ul>
+                    <ul><img src={pipe} alt="pipe" className="SSMicons"/>Plumbing Fixtures</ul>
             </div>
 
         </div>
@@ -126,4 +126,4 @@ function Secondhand(){
 };
 export default Secondhand;
 // need to add credit somewhere
-{/* <a href="https://www.flaticon.com/free-icons/plumbing" title="plumbing icons">Plumbing icons created by IconBaandar - Flaticon</a> */}
+/* <a href="https://www.flaticon.com/free-icons/plumbing" title="plumbing icons">Plumbing icons created by IconBaandar - Flaticon</a> */
