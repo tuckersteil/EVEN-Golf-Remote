@@ -48,7 +48,7 @@ header {
   text-decoration: none;
   color: #f8f8f8;
   padding: 20px;
-  /* border-bottom: 2px solid gold; */
+ 
   border-style:ridge;
   border-color: gold;
 }
@@ -61,8 +61,7 @@ header {
 .navbar-links li a.active {
   color: #000000;
   background-color: gold;
-  /* text-decoration: overline   #000000; */
-  /* text-decoration:underline; */
+
 }
 
 .goldbar {
@@ -77,9 +76,7 @@ header {
   margin-top: 10px;
 }
 
-/* .app {
-  background-color: #000000;
-} */
+
 .search-bar {
   display: flex;
   align-items: center;
@@ -111,7 +108,7 @@ header {
 
 .app{
   max-height: max-content;
-  /* max-width: max-content; */
+  
 }
 
 .product-page {
@@ -249,15 +246,12 @@ header {
   font-size: 12px;
 }
 
-/* .products {
-  background-color: #ccc;
-  
-} */
+
 
 .filterBar {
   position: relative;
   top: 10px;
-  /* background-color: #ffd700; */
+
 }
 
 
@@ -267,7 +261,6 @@ header {
   height: 100%;
   bottom: 0px;
   background-color: white;
-  /* background-image: url('./home-logo1.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 100%;
@@ -369,11 +362,11 @@ header {
 }
 
 .feature-text p{
-  /* padding: 10px; */
+ 
   font-size:20px ;
 }
 .feature-text1 p{
-  /* padding: 10px; */
+ 
   font-size:20px ;
 }
 
@@ -385,20 +378,18 @@ header {
   width: 1200px;
   margin-left: 170px;
   border: 2px solid gold;
-  /* border-radius: 5%;  */
   color: white;
   justify-content: center;
   align-items: center;
 }
 
 .mission-text{
-  /* margin-left: 10px; */
+ 
   text-align: center;
   color: gold;
-  /* text-decoration: underline; */
+ 
 }
 .mission-text p{
-  /* margin-left: 10px; */
   text-align: center;
   font-size: 18px;
   padding: 10px;
@@ -406,7 +397,7 @@ header {
 }
 
 .mission-text h1{
-  /* margin-left: 10px; */
+  
   text-align: center;
   color: gold;
   text-decoration: underline;
@@ -429,7 +420,7 @@ header {
 
 .tm1{
   text-align: center;
-  /* padding-left: 10px; */
+  
 }
 
 .counter {
@@ -559,12 +550,7 @@ header {
 }
 
 
-/* .cart-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  height: 500px;
-} */
+
 
 .cart-header {
   background-color: #f5f5f5;
@@ -579,7 +565,7 @@ header {
 }
 
 .cart-header span {
-  display: block; /* Add this line to place each label on a new line */
+  display: block;
   padding: 5px;
 }
 
@@ -587,7 +573,7 @@ header {
 .cart-item {
   background-color: #ffffff;
   padding: 20px;
-  /* Add additional styling as needed */
+  
 }
 
 .cart-products {
@@ -615,7 +601,7 @@ header {
 
 .image-zoom:hover img {
   transform: scale(1.2);
-} */
+} 
 
 
 .image-zoom {
@@ -727,7 +713,6 @@ width: 50px;
 
   .shipping {
     border-style:groove;
-    /* background-color: gold; */
     border-color: gold;
   }
 
@@ -736,7 +721,7 @@ width: 50px;
   background-color: #c6bcbc;
   width: 400px;
   height: 700px;
-  /* padding-left: 10px; */
+  
  }
 
  .search-bar1 {
@@ -794,17 +779,17 @@ width: 50px;
   display: flex;
   align-items: center;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Add a smooth transition for background color */
+  transition: background-color 0.3s ease;
 }
 
 
 .CatSSM .icon {
-  /* margin-right: 10px; */
+ 
   width: 30px;
   height: 30px;
 }
 
-/* Change background color on hover */
+
 .CatSSM ul:hover {
   background-color: #e0e0e0;
 }
@@ -828,12 +813,12 @@ width: 50px;
 .SSMleft-div {
   width: 400px;
   height: 100%;
-  background-color: #f0f0f0; /* Set the background color for the left div */
+  background-color: #f0f0f0; 
 }
 
 .SSMright-div {
   flex: 1;
-  background-color: #ccc; /* Set the background color for the right div */
+  background-color: #ccc;
 }
 
 
