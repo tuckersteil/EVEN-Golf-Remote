@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <header>
+    // <header>
      
-      <nav className="navbar">
+     
         <ul className="navbar-links">
           <li>
             <NavLink exact to="/" activeClassName="active">
@@ -56,8 +56,8 @@ function NavBar() {
             </NavLink>
           </li>
         </ul>
-      </nav>
-    </header>
+      
+    /* </header> */
   );
 }
 

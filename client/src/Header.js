@@ -46,9 +46,9 @@ function Header({itemCount}) {
         </NavLink>
       </div>
       <div className="goldbar"></div>
-      <nav className="navbar">
+      <div className="navbar">
         <NavBar />
-      </nav>
+      </div>
       <div className="goldbar"></div>
     </header>
   );
