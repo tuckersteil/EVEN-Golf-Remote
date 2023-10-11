@@ -10,19 +10,25 @@ header {
 .top-section {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   width: 100%;
+  height: 150px;
   padding: 20px;
-  left: 110px;
   background-color: #000000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
+.logo-section{
+  display: flex;
+  position: relative;
+  left: 75px;
+}
+
 .logo-img {
   width: 290px;
   height: auto;
-  left: 50px;
+  /* left: 50px; */
   border-radius: 5%; 
 }
 /* .navbar {
@@ -62,14 +68,14 @@ header {
   text-decoration: none;
   font-size:16px;
   color: #f8f8f8;
-  padding: 20px;
+  padding: 22px;
   border-style: ridge;
   border-color: gold;
   text-align: center; 
   margin: 0 10px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
   .navbar-links li a {
     font-size: 16px; /* Change the font size for smaller screens */
     padding: 16px; /* Change the padding for smaller screens */
@@ -168,20 +174,93 @@ header {
   margin-top: 10px;
 }
 
+.my-accountbutton{
+  display: flex;
+  position: relative;
+  align-items: center; 
+  width: 170px;
+  left: 250px;
+  height: 65px;
+  font-size: 15px;
+  justify-content: center;
+}
+
+
+.downicon{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.separator {
+  width: 100%;
+  border-top: 1px solid #ccc; /* Customize the border properties as needed */
+  margin: 10px 0; /* Adjust the margin for spacing */
+}
+
+
+/* .account-dropdown {
+  padding: 25px ;
+  background-color: gold;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  left: 100px;
+} */
+.account-dropdown {
+  background-color: white;
+  width: 300px;
+  height: 160px;
+  position: relative;
+  top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.account-dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Set a specific height for the content */
+}
+
+.margin1 {
+  /* Remove padding */
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.margin2 {
+  /* Remove padding */
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 130px;
+  border-bottom: 1px solid #ccc; /* Add a border on the right side */
+}
+
+
+
 
 .search-bar {
   display: flex;
-  align-items: center;
-  width: 500px;
-}
-
-.search-input-container {
   position: relative;
-  flex-grow: 1;
+  align-items: center; 
+  width: 500px;
+  left: 150px;
 }
 
 .search-input {
-  width: 100%;
+  width: 500px;
   padding: 10px 40px 10px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -189,10 +268,9 @@ header {
 }
 
 .search-icon {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: -45px;
+  position: relative;
+  display: flex;
+  margin-left: -32px;
   background-color: gold;
   padding: 5px;
 }

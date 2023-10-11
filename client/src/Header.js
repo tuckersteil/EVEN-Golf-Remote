@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import NavBar from './NavBar';
 import logo from './new-logo1.png';
+import down from './zdown.png';
 // import Cart from './Cart';
 import SearchBar from './SearchBar';
 import { FaShoppingCart } from 'react-icons/fa';
@@ -19,21 +20,24 @@ function Header({itemCount}) {
         <div className="logo-section">
           <img src={logo} alt="Logo" className="logo-img" />
         </div>
-        <div className="search-filter">
           <SearchBar />
-        </div>
-        <div className="my-account">
-          <button className="account-dropdown" onClick={toggleAccountDropdown}>
-            My Account
+        
+          <button className="my-accountbutton" onClick={toggleAccountDropdown}>
+            My Account <img src={down} className="downicon"/>
           </button>
           {isAccountOpen && (
-            <div className="account-dropdown-content">
-              <NavLink to="/signin">Sign In</NavLink>
-              <NavLink to="/create-account">Create Account</NavLink>
+            <div className="account-dropdown">
+                <div className='account-dropdown-content'>
+                    <div className='margin1'>Customer Login</div>
+                    <button className='margin2'>Sign In</button>
+                    <hr className="separator" />
+                    <div>Don't have an account?</div>
+                    <button >Create an Account</button>
+                </div>
             </div>
-          )}
-        </div>
-        <NavLink to='/cart'>
+            )}
+        
+        {/* <NavLink to='/cart'>
         <div className="cart-section">
           <div className="cart-button" >
           <div className="cart-icon">
@@ -43,8 +47,9 @@ function Header({itemCount}) {
           </div>
           <span className='tuck'>Cart</span>
         </div>
-        </NavLink>
-      </div>
+        </NavLink> */}
+    </div>
+
       <div className="goldbar"></div>
       <div className="navbar">
         <NavBar />
