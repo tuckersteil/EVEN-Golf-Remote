@@ -19,10 +19,14 @@ header {
 }
 
 
+
+
 .logo-section{
   display: flex;
   position: relative;
   left: 75px;
+  font-size: 16px; 
+  padding: 16px; 
 }
 
 .logo-img {
@@ -185,19 +189,57 @@ header {
   justify-content: center;
 }
 
+@media screen and (max-width: 1270px) {
+  .my-accountbutton {
+    /* width: 120px; */
+    left: 180px;
+  }
+}
 
-.downicon{
+@media screen and (max-width: 1150px) {
+  .my-accountbutton {
+    /* width: 120px; */
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .my-accountbutton {
+    /* width: 120px; */
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .logo-section {
+    /* width: 120px; */
+    left: 25px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .logo-section {
+    /* width: 120px; */
+    left: 0px;
+  }
+}
+
+
+
+
+.downicon {
   position: relative;
   width: 30px;
   height: 30px;
   margin-left: 10px;
+  transition: transform 0.3s; /* Add a transition for smooth flipping */
 }
 
-.separator {
-  width: 100%;
-  border-top: 1px solid #ccc; /* Customize the border properties as needed */
-  margin: 10px 0; /* Adjust the margin for spacing */
+.open .downicon {
+  transform: rotate(180deg); /* Rotate the arrow when the button is open */
 }
+
+
 
 
 /* .account-dropdown {
@@ -213,12 +255,26 @@ header {
 .account-dropdown {
   background-color: white;
   width: 300px;
-  height: 160px;
-  position: relative;
-  top: 120px;
+  height: 260px;
+  position: absolute; /* Change position to absolute */
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1; /* Add a z-index to control stacking order */
+  /* You may need to adjust 'top' or 'right' properties as needed */
+  top: 140px;
+  /* top: 100%; */
+  right: 300px;
+}
+
+.up-arrow {
+  height: 20px;
+  width: 20px;
+  color: white;
+  top: 100px;
+}
+.up-arrow1{
+  top: 100px;
 }
 
 
@@ -226,6 +282,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 12px 12px 12px 12px;
   align-items: center;
   height: 100%; /* Set a specific height for the content */
 }
@@ -236,6 +293,8 @@ header {
   align-items: center;
   margin-left: 25px;
   margin-right: 25px;
+  padding: 12px 12px 12px 12px;
+  font-size: 20px;
 }
 
 .margin2 {
@@ -243,12 +302,33 @@ header {
   justify-content: center;
   align-items: center;
   margin-left: 25px;
+  font-size: 15px;
   margin-right: 25px;
-  width: 130px;
+  padding: 12px 12px;
+  width: 220px;
+  font-weight: bold;
   border-bottom: 1px solid #ccc; /* Add a border on the right side */
 }
 
+.margin22 {
+  /* Remove padding */
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 15px;
+  padding: 12px 12px;
+  width: 220px;
+  background-color: #9c9a9a;
+  border-bottom: 1px solid #ccc; /* Add a border on the right side */
+}
 
+.separator {
+  width: 100%;
+  border-top: 1px solid #ccc; /* Customize the border properties as needed */
+  margin: 15px 0; /* Adjust the margin for spacing */
+}
 
 
 .search-bar {
@@ -257,6 +337,31 @@ header {
   align-items: center; 
   width: 500px;
   left: 150px;
+}
+
+@media screen and (max-width: 1550px) {
+  .search-bar {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .search-bar {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .search-bar {
+    left: 55px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .search-bar {
+    width: 200px;
+    left: 20px
+  }
 }
 
 .search-input {
@@ -350,7 +455,7 @@ header {
 .item-count {
   position: absolute;
   top: -8px;
-  right: 35px;
+  right: 60px;
   background-color: red;
   color: white;
   font-size: 15px;
@@ -360,15 +465,31 @@ header {
 
 .tuck{
   position: relative;
+  top: -25px;
+  right: -70px;
+  width: 45px;
+  height: 25px;
+  text-align: center;
+  color: #000000;
+  font-size: 18px;
+  padding: 2px 4px;
+  background-color: #ffd700;
+  border-radius: 50%; 
+  text-decoration: underline;
+}
+/* .tuck{
+  position: relative;
   top: -42px;
   right: -65px;
+  width: 30px;
+  height: 30px;
   color: rgb(0, 0, 0);
   font-size: 18px;
   padding: 2px 4px;
   background-color: #ffd700;
   border-radius: 50%; 
   text-decoration: none;
-}
+} */
 
 .cart-icon__icon {
   color: gold; 
@@ -578,6 +699,19 @@ header {
   font-size:20px ;
 }
 
+@media screen and (max-width: 1100px) {
+  .feature-text1 p {
+    font-size: 18px; /* Change the font size for smaller screens */
+    
+  }
+}
+@media screen and (max-width: 1100px) {
+  .feature-text p {
+    font-size: 18px; /* Change the font size for smaller screens */
+    
+  }
+}
+
 .mission{
   background-color: black;
   position: relative;
@@ -709,14 +843,42 @@ header {
 
 .cart-section{
   border: 2px solid gold;
-  width: 115px;
-  height: 75px;
+  width: 130px;
+  position: relative;
+  height: 95px;
   border-radius: 10%; 
-  
+  left: 400px;
+}
+
+@media screen and (max-width: 1470px) {
+  .cart-section {
+    left: 300px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .cart-section {
+    left: 200px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .cart-section {
+    /* width: 120px; */
+    left: 110px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .cart-section {
+    /* width: 120px; */
+    left: 60px;
+  }
 }
 
 .cart-button{
-  top: 100px;
+  top: 18px;
+  left: 4px;
+  position: relative;
 }
 
 
