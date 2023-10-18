@@ -79,7 +79,7 @@ header {
   margin: 0 10px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1580px) {
   .navbar-links li a {
     font-size: 16px; /* Change the font size for smaller screens */
     padding: 16px; /* Change the padding for smaller screens */
@@ -185,7 +185,7 @@ header {
   width: 170px;
   left: 250px;
   height: 65px;
-  font-size: 15px;
+  font-size: 16px;
   justify-content: center;
 }
 
@@ -265,6 +265,44 @@ header {
   top: 140px;
   /* top: 100%; */
   right: 300px;
+}
+
+
+@media screen and (max-width: 2000px) {
+  .account-dropdown {
+    right: 680px;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .account-dropdown {
+    right: 500px;
+  }
+}
+
+
+@media screen and (max-width: 1800px) {
+  .account-dropdown {
+    right: 400px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .account-dropdown {
+    right: 300px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .account-dropdown {
+    right: 200px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .account-dropdown {
+    right: 150px;
+  }
 }
 
 .up-arrow {
