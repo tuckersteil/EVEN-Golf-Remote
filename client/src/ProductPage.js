@@ -76,7 +76,7 @@ function ProductPage({addItemToCart}) {
           <div className='shipping'>
             <h4>Shipping Details:</h4>
             <h4> - Boxed Shipping Weight: {product.shippingDetails.boxedWeight}</h4>
-            <h4> - hipping Dimensions: {product.shippingDetails.shippingDimensions}</h4>
+            <h4> - Shipping Dimensions: {product.shippingDetails.shippingDimensions}</h4>
             <h4> - Shipping Method: {product.shippingDetails.method}</h4>
           </div>
         </div>
