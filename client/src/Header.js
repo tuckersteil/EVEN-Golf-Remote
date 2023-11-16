@@ -7,6 +7,8 @@ import down from './zdown.png';
 import SearchBar from './SearchBar';
 import { FaShoppingCart } from 'react-icons/fa';
 import arrow from './arrow-up.png';
+import './Header.css'
+
 
 function Header({itemCount}) {
   const [isAccountOpen, setAccountOpen] = useState(false);
@@ -18,19 +20,17 @@ function Header({itemCount}) {
   return (
     <header>
       <div className="top-section">
-        <div className="logo-section">
-          <img src={logo} alt="Logo" className="logo-img" />
-        </div>
-          <SearchBar />
+        <h1 className='logo'>EVEN.</h1>
+          {/* <SearchBar /> */}
         
-          <button
+          {/* <button
           className={`my-accountbutton ${isAccountOpen ? 'open' : ''}`}
           onClick={toggleAccountDropdown}
         >
           My Tuck <img src={down} className="downicon" />
           
-        </button>
-          {isAccountOpen && (
+        </button> */}
+          {/* {isAccountOpen && (
             <div className="account-dropdown">
                 <div className='account-dropdown-content'>
                     <div className='margin1'>Customer Login</div>
@@ -40,9 +40,9 @@ function Header({itemCount}) {
                     <button className='margin22' >Create an Account</button>
                 </div>
             </div>
-            )}
+            )} */}
         
-        <NavLink to='/cart'>
+        {/* <NavLink to='/cart'>
         <div className="cart-section">
           <div className="cart-button" >
           <div className="cart-icon">
@@ -52,12 +52,12 @@ function Header({itemCount}) {
           </div>
           <div className='tuck'>Cart</div>
         </div>
-        </NavLink>
+        </NavLink> */}
     </div>
 
       <div className="goldbar"></div>
       <div className="navbar">
-        <NavBar />
+        {/* <NavBar /> */}
       </div>
       <div className="goldbar"></div>
     </header>

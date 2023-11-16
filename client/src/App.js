@@ -3,7 +3,6 @@ import './App.css';
 // import NavBar from './NavBar';
 import Home from './Home';
 import SecondHand from './SecondHand';
-import Promotions from './Promotions';
 import Products from './Products';
 import MyAccount from './MyAccount';
 import Services from './Services';

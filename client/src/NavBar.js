@@ -8,35 +8,34 @@ function NavBar() {
      
      
         <ul className="navbar-links">
-          <li>
+          {/* <li>
             <NavLink exact to="/" activeClassName="active">
               HOME
             </NavLink>
           </li>
           <li>
             <NavLink to="/products" activeClassName="active">
-              OUR PRODUCTS
+            GOLF LERNEN
             </NavLink>
           </li>
           <li>
             <NavLink to="/secondhand" activeClassName="active">
-              SECONDHAND SUPPLIES 
-              MARKETPLACE
+              NEWS & MEHR
             </NavLink>
           </li>
           <li>
             <NavLink to="/services" activeClassName="active">
-              SERVICES
+              COMMUNITY
             </NavLink>
           </li>
           <li>
             <NavLink to="/FAQ" activeClassName="active">
-              FAQ
+            FILM & VIDEO
             </NavLink>
           </li>
           <li>
             <NavLink to="/instructions" activeClassName="active">
-              HOW TO ORDER
+              
             </NavLink>
           </li>
           <li>
@@ -44,17 +43,13 @@ function NavBar() {
               CONTACT US
             </NavLink>
           </li>
-          {/* <li>
-            <NavLink to="/promotions" activeClassName="active">
-              PROMOTIONS
-            </NavLink>
-          </li> */}
+      
           
           <li>
             <NavLink to="/myaccount" activeClassName="active">
               MY ACCOUNT
             </NavLink>
-          </li>
+          </li> */}
         </ul>
       
     /* </header> */

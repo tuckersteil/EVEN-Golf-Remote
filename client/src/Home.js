@@ -1,4 +1,4 @@
-import logo from './home-logo3.jpg';
+import logo from './large-open-air-course-with-golf-stick-and-ball-web-header.jpg';
 import quality from './quality.png';
 import inventory from './inventory.png';
 import marketplace from './marketplace1.png';
@@ -7,33 +7,25 @@ function Home(){
 
     return (
         <div className='home-page' >
-            <div>
-                <img src={logo}  alt={""}className='bathroom'/>
-                <h1 className='slogan'>Empowering Construction Efficiency</h1>
-                <div className="goldbar"></div>
-            </div>
+            <img src={logo}  alt={""} className='bathroom'/>
+                {/* <h1 className='slogan'>Empowering Construction Efficiency</h1> */}
+    
+            
             
             <div className='features'>
                 <div className='features1'>
-                    <img src={quality} alt={""} className='feature-logo'/>
-                    <div className='feature-text'>
-                        <h1>Affordable Quality Supplies:</h1>
-                        <p>We provide contractors and owners with affordable yet high-quality supplies and products for new and remodel construction projects.</p>
-                    </div>
+                <a className='subcategory1'>THE GREEN</a>
+                    <a className='category1'>NEWS & MEHR</a>
+                    
                 </div>
-                <div className='features2'>
-                    <img src={inventory} alt={""} className='feature-logo'/>
-                    <div className='feature-text1'>
-                        <h1>Construction Inventory Management:</h1>
-                        <p>Stay on top of your materials and tools with our powerful tracking solution. Receive real-time alerts to prevent project delays caused by low supplies.</p>
-                    </div>
+                <div className='features1'>
+                   
                 </div>
-                <div className='features3'>
-                    <img src={marketplace} alt={""} className='feature-logo' />
-                    <div className='feature-text1'>
-                        <h1>Secondhand Supplies Marketplace:</h1>
-                        <p>Buy and sell excess materials and used equipment on our platform, promoting sustainability and cost-effectiveness in the construction industry.</p>
-                    </div>
+                <div className='features1'>
+                   
+                </div>
+                <div className='features1'>
+                   
                 </div>
             </div>
             <div className='features'>
