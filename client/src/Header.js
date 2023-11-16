@@ -27,7 +27,7 @@ function Header({itemCount}) {
           className={`my-accountbutton ${isAccountOpen ? 'open' : ''}`}
           onClick={toggleAccountDropdown}
         >
-          My Account <img src={down} className="downicon" />
+          My Tuck <img src={down} className="downicon" />
           
         </button>
           {isAccountOpen && (
